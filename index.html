@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="radio" name="filter" id="rbPie">
+    <input type="radio" name="filter" id="rbRoll">
+    <input type="radio" name="filter" id="rbСheesecake">
+    <input type="radio" name="filter" id="rbSmallCake">
+    <input type="radio" name="filter" id="rbCake">
+    <input type="radio" name="filter" id="rbReset" checked>
+
+    <div class="container">
+        <header><img src="img/header.png" alt=""></header>
+
+        <div class="catalog">
+
+
+            <div class="item cake">
+                <div class="itemPic"><img src="img/1.jpg" alt=""></div>
+                <div class="itemName">
+                    <p>Торт: <b>Сметанковий</b></p>
+                </div>
+                <hr>
+                <div class="itemDescr">
+                    <p>Калории в порции 265 кКал</p>
+                </div>
+            </div>
+            <div class="item smallCake">
+                <div class="itemPic"><img src="img/2.jpg" alt=""></div>
+                <div class="itemName">
+                    <p>Тістечко: <b>Мафін</b></p>
+                </div>
+                <hr>
+                <div class="itemDescr">
+                    <p>Калории в порции 305 кКал</p>
+                </div>
+            </div>
+            <div class="item cheesecake">
+                <div class="itemPic"><img src="img/3.png" alt=""></div>
+                <div class="itemName">
+                    <p>Сирники: <b>Три ягоди</b></p>
+                </div>
+                <hr>
+                <div class="itemDescr">
+                    <p>Калории в порции 450 кКал</p>
+                </div>
+            </div>
+            <div class="item cake">
+                <div class="itemPic"><img src="img/4.jpg" alt=""></div>
+                <div class="itemName">
+                    <p>Торт: <b>Смачний</b></p>
+                </div>
+                <hr>
+                <div class="itemDescr">
+                    <p>Калории в порции 523 кКал</p>
+                </div>
+            </div>
+            <div class="item roll">
+                <div class="itemPic"><img src="img/5.jpg" alt=""></div>
+                <div class="itemName">
+                    <p>Рулет: <b>Святковий</b></p>
+                </div>
+                <hr>
+                <div class="itemDescr">
+                    <p>Калории в порции 380 кКал</p>
+                </div>
+            </div>
+            <div class="item pie">
+                <div class="itemPic"><img src="img/6.jpeg" alt=""></div>
+                <div class="itemName">
+                    <p>Пиріг: <b>Свято у бабусі</b></p>
+                </div>
+                <hr>
+                <div class="itemDescr">
+                    <p>Калории в порции 298 кКал</p>
+                </div>
+            </div>
+            <div class="item cake">
+                <div class="itemPic"><img src="img/7.jpg" alt=""></div>
+                <div class="itemName">
+                    <p>Торт: <b>Ведмедик</b></p>
+                </div>
+                <hr>
+                <div class="itemDescr">
+                    <p>Калории в порции 600 кКал</p>
+                </div>
+            </div>
+            <div class="item smallCake">
+                <div class="itemPic"><img src="img/8.png" alt=""></div>
+                <div class="itemName">
+                    <p>Тістечко: <b>Живі квіти</b></p>
+                </div>
+                <hr>
+                <div class="itemDescr">
+                    <p>Калории в порции 438 кКал</p>
+                </div>
+            </div>
+            <div class="item smallCake">
+                <div class="itemPic"><img src="img/9.jpg" alt=""></div>
+                <div class="itemName">
+                    <p>Тістечко: <b>Лимонне з маком</b></p>
+                </div>
+                <hr>
+                <div class="itemDescr">
+                    <p>Калории в порции 348 кКал</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="slider">
+                <p>Калорії у порції</p>
+                <div class="rangeContainer">
+                    <input type="range" min="100" max="1000" value="400" id="range">
+                </div>
+                <label for="range">До 400 кКал</label>
+            </div>
+
+            <div class="filtersRb">
+                <label for="rbPie">Пиріг</label>
+                <label for="rbRoll">Рулет</label>
+                <label for="rbСheesecake">Сирники</label>
+                <label for="rbSmallCake">Тістечко</label>
+                <label for="rbCake">Торт</label>
+                <label for="rbReset">Скинути фільтр</label>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="contacts">
+                <p>Контакти:</p><a href="mailto:tortik@smakota.ua">tortik@smakota.ua</a>
+            </div>
+            <p>© 2021 Smakota</p>
+        </footer>
+    </div>
+</body>
+
+</html>
